@@ -98,4 +98,4 @@ def predict(X, w, model='nitro', agg=gmean, exclude_fns=0, return_preds=False):
 # **********************
 
 def test_me():
-    return 42
+    return str(np.pi)
